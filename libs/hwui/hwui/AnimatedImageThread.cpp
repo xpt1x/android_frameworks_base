@@ -34,7 +34,7 @@ AnimatedImageThread& AnimatedImageThread::getInstance() {
 
 AnimatedImageThread::AnimatedImageThread() {
 #ifdef __ANDROID__
-    setpriority(PRIO_PROCESS, 0, PRIORITY_NORMAL + PRIORITY_MORE_FAVORABLE);
+    setpriority(PRIO_PROCESS, 0, /*PRIORITY_NORMAL + PRIORITY_MORE_FAVORABLE*/ PRIORITY_DISPLAY);
 #endif
 }
 
