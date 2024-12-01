@@ -95,8 +95,8 @@ public class PropImitationHooks {
     );
 
     private static final Map<String, String> sGameProps = Map.of(
-            "MANUFACTURER", "OnePlus",
-            "MODEL", "IN2020"
+            "MANUFACTURER", "samsung",
+            "MODEL", "SM-S928B"
     );
 
     private static final Set<String> sNexusFeatures = Set.of(
