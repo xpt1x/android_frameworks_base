@@ -79,8 +79,8 @@ public class PropImitationHooks {
             "MANUFACTURER", "Google",
             "BRAND", "google",
             "MODEL", "Pixel 6 Pro",
-            "ID", "AP2A.240805.005",
-            "FINGERPRINT", "google/raven/raven:14/AP2A.240805.005/12043167:user/release-keys"
+            "ID", "AP4A.241205.013.A2",
+            "FINGERPRINT", "google/raven/raven:15/AP4A.241205.013.A2/12649814:user/release-keys"
     );
 
     private static final Map<String, String> sPixelXLProps = Map.of(
